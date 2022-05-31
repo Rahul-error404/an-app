@@ -1,0 +1,54 @@
+.menu {
+    list-style-type: none;
+    margin: 0;
+    text-align: right;
+    background: #78786f;
+    line-height: 40px;
+}
+
+.mobile-menu {
+    list-style-type: none;
+    height: 200px;
+    width: 150px;
+    text-align: left;
+    position: absolute;
+    top: 75px;
+    transition: 1s left;
+    background: #78786f;
+}
+
+.menu>li {
+    color: white;
+    display: inline;
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.mobile-menu>li {
+    color: white !important;
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.menu-active {
+    color: red;
+    font-size: 25 !important;
+    font-style: italic;
+}
+
+.mobile-menu-btn {
+    position: absolute;
+    right: 0;
+    top: 75px
+}
+
+.menu-active a {
+    color: white !important
+}
